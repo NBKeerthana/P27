@@ -32,6 +32,8 @@ function draw() {
   background('grey');
 
   roof1.display();
+  bob1.display();
+
 
   drawSprites();
  
