@@ -1,7 +1,7 @@
 class Bob{
   constructor(x,y,radius){
     var options = {
-      isStatic:true,
+      isStatic:false,
       restitution:0.3,
       friction:0.5,
       density:1.2
@@ -15,7 +15,7 @@ class Bob{
     var angle = this.body.angle;
     push();
     translate(pos.x,pos.y);
-    fill('pink');
+    fill('violet');
     ellipseMode(RADIUS);
     ellipse(0,0,this.radius,this.radius);
     pop();
